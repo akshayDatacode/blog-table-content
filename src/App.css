@@ -23,17 +23,29 @@ h2, h3 {
   margin-top: -16px;
 }
 
+ul, li {
+  list-style: none;
+  margin: 20px 0;
+}
+
 a {
-  color: grey;
-  text-decoration: none;
+  color: grey !important;
+  text-decoration: none !important;
+  border-left: 4px solid;
+  padding: 10px;
+  margin: 0 10px;
 }
 
 li.active > a {
-  color: blueviolet;
+  color: blueviolet !important;
+  border-left: 4px solid;
+  padding: 10px;
+  margin: 0 10px;
 }
 
 li > a:hover {
-  color: blueviolet;
+  color: blueviolet !important;
+  border-left: 4px solid;
 }
 
 /* Safari-only */
